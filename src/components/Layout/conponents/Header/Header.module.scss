@@ -1,0 +1,45 @@
+.wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inner {
+    width: 1030px;
+    height: 100%;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0;
+    display: block;
+    line-height: 45px;
+    height: 100%;
+    img {
+        vertical-align: middle;
+    }
+}
+
+//accout
+
+.grid-accout {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.pic-user {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.icon-down {
+    transform: translateY(-20%);
+}
