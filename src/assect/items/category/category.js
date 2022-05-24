@@ -79,164 +79,164 @@ const listItems = [
             ],
             [
                 {
-                    title: 'Tất cả',
-                    href: '/tim-truyen/tat-ca',
+                    title: 'Ecchi',
+                    href: '/tim-truyen/ecchi',
                 },
                 {
-                    title: 'Action',
-                    href: '/tim-truyen/action',
+                    title: 'Fantasy',
+                    href: '/tim-truyen/fantasy',
                 },
                 {
-                    title: 'Adult',
-                    href: '/tim-truyen/adult',
+                    title: 'Gender Bender',
+                    href: '/tim-truyen/gender-bender',
                 },
                 {
-                    title: 'Adventure',
-                    href: '/tim-truyen/adventure',
+                    title: 'Harem',
+                    href: '/tim-truyen/harem',
                 },
                 {
-                    title: 'Anime',
-                    href: '/tim-truyen/anime',
+                    title: 'Historical',
+                    href: '/tim-truyen/historical',
                 },
                 {
-                    title: 'Chuyển sinh',
-                    href: '/tim-truyen/chuyen-sinh',
+                    title: 'Horror',
+                    href: '/tim-truyen/horror',
                 },
                 {
-                    title: 'Comedy',
-                    href: '/tim-truyen/comedy',
+                    title: 'Josei',
+                    href: '/tim-truyen/josei',
                 },
                 {
-                    title: 'Comic',
-                    href: '/tim-truyen/comic',
+                    title: 'Live action',
+                    href: '/tim-truyen/live-action',
                 },
                 {
-                    title: 'Cooking',
-                    href: '/tim-truyen/cooking',
+                    title: 'Manga',
+                    href: '/tim-truyen/manga',
                 },
                 {
-                    title: 'Cổ Đại',
-                    href: '/tim-truyen/co-dai',
+                    title: 'Mahua',
+                    href: '/tim-truyen/mahua',
                 },
                 {
-                    title: 'Doujinshi',
-                    href: '/tim-truyen/doujinshi',
+                    title: 'Manhwa',
+                    href: '/tim-truyen/manhwa',
                 },
                 {
-                    title: 'Drama',
-                    href: '/tim-truyen/drama',
+                    title: 'Martial Arts',
+                    href: '/tim-truyen/martial-arts',
                 },
                 {
-                    title: 'Đam Mỹ',
-                    href: '/tim-truyen/dam-my',
-                },
-            ],
-            [
-                {
-                    title: 'Tất cả',
-                    href: '/tim-truyen/tat-ca',
-                },
-                {
-                    title: 'Action',
-                    href: '/tim-truyen/action',
-                },
-                {
-                    title: 'Adult',
-                    href: '/tim-truyen/adult',
-                },
-                {
-                    title: 'Adventure',
-                    href: '/tim-truyen/adventure',
-                },
-                {
-                    title: 'Anime',
-                    href: '/tim-truyen/anime',
-                },
-                {
-                    title: 'Chuyển sinh',
-                    href: '/tim-truyen/chuyen-sinh',
-                },
-                {
-                    title: 'Comedy',
-                    href: '/tim-truyen/comedy',
-                },
-                {
-                    title: 'Comic',
-                    href: '/tim-truyen/comic',
-                },
-                {
-                    title: 'Cooking',
-                    href: '/tim-truyen/cooking',
-                },
-                {
-                    title: 'Cổ Đại',
-                    href: '/tim-truyen/co-dai',
-                },
-                {
-                    title: 'Doujinshi',
-                    href: '/tim-truyen/doujinshi',
-                },
-                {
-                    title: 'Drama',
-                    href: '/tim-truyen/drama',
-                },
-                {
-                    title: 'Đam Mỹ',
-                    href: '/tim-truyen/dam-my',
+                    title: 'Mature',
+                    href: '/tim-truyen/mature',
                 },
             ],
             [
                 {
-                    title: 'Tất cả',
-                    href: '/tim-truyen/tat-ca',
+                    title: 'Mecha',
+                    href: '/tim-truyen/mecha',
                 },
                 {
-                    title: 'Action',
-                    href: '/tim-truyen/action',
+                    title: 'Mystery',
+                    href: '/tim-truyen/mystery',
                 },
                 {
-                    title: 'Adult',
-                    href: '/tim-truyen/adult',
+                    title: 'Ngôn Tình',
+                    href: '/tim-truyen/ngon-tinh',
                 },
                 {
-                    title: 'Adventure',
-                    href: '/tim-truyen/adventure',
+                    title: 'One shot',
+                    href: '/tim-truyen/one-shot',
                 },
                 {
-                    title: 'Anime',
-                    href: '/tim-truyen/anime',
+                    title: 'Psychologial',
+                    href: '/tim-truyen/psychologial',
                 },
                 {
-                    title: 'Chuyển sinh',
-                    href: '/tim-truyen/chuyen-sinh',
+                    title: 'Romance',
+                    href: '/tim-truyen/romance',
                 },
                 {
-                    title: 'Comedy',
-                    href: '/tim-truyen/comedy',
+                    title: 'School life',
+                    href: '/tim-truyen/school-life',
                 },
                 {
-                    title: 'Comic',
-                    href: '/tim-truyen/comic',
+                    title: 'Sci fi',
+                    href: '/tim-truyen/sci-fi',
                 },
                 {
-                    title: 'Cooking',
-                    href: '/tim-truyen/cooking',
+                    title: 'Seinen',
+                    href: '/tim-truyen/seinen',
                 },
                 {
-                    title: 'Cổ Đại',
-                    href: '/tim-truyen/co-dai',
+                    title: 'Shoujo',
+                    href: '/tim-truyen/shoujo',
                 },
                 {
-                    title: 'Doujinshi',
-                    href: '/tim-truyen/doujinshi',
+                    title: 'Shoujo Ai',
+                    href: '/tim-truyen/houjo-ai',
                 },
                 {
-                    title: 'Drama',
-                    href: '/tim-truyen/drama',
+                    title: 'Shounen',
+                    href: '/tim-truyen/shounen',
                 },
                 {
-                    title: 'Đam Mỹ',
-                    href: '/tim-truyen/dam-my',
+                    title: 'Shounen Ai',
+                    href: '/tim-truyen/shounen-ai',
+                },
+            ],
+            [
+                {
+                    title: 'Slice of Life',
+                    href: '/tim-truyen/slice-of-life',
+                },
+                {
+                    title: 'Smut',
+                    href: '/tim-truyen/smut',
+                },
+                {
+                    title: 'Soft Yaoi',
+                    href: '/tim-truyen/soft-yaoi',
+                },
+                {
+                    title: 'Soft Yuri',
+                    href: '/tim-truyen/soft-yuri',
+                },
+                {
+                    title: 'Sports',
+                    href: '/tim-truyen/sports',
+                },
+                {
+                    title: 'Supernatural',
+                    href: '/tim-truyen/supernatural',
+                },
+                {
+                    title: 'Thiếu Nhi',
+                    href: '/tim-truyen/thieu-nhi',
+                },
+                {
+                    title: 'Tragedy',
+                    href: '/tim-truyen/tragedy',
+                },
+                {
+                    title: 'Trinh Thám',
+                    href: '/tim-truyen/trinh-tham',
+                },
+                {
+                    title: 'Truyện Scan',
+                    href: '/tim-truyen/truyen-scan',
+                },
+                {
+                    title: 'Truyện Màu',
+                    href: '/tim-truyen/truyen-mau',
+                },
+                {
+                    title: 'Webtoon',
+                    href: '/tim-truyen/webtoon',
+                },
+                {
+                    title: 'Xuyên Không',
+                    href: '/tim-truyen/xuyen-khong',
                 },
             ],
         ],

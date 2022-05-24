@@ -1,9 +1,8 @@
+import classNames from 'classnames/bind';
 import styles from './Navbar.module.scss';
 
-import classNames from 'classnames/bind';
-
 import CategoryNavDown from './Category';
-import { categoryItems as listItems } from '~/assect/navbar/category';
+import { categoryItems as listItems } from '~/assect/items/category';
 
 const cx = classNames.bind(styles);
 

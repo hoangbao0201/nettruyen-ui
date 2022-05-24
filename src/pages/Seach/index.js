@@ -4,7 +4,6 @@ import styles from './Seach.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import classNames from 'classnames/bind';
-import Tippy from '@tippyjs/react';
 
 const cx = classNames.bind(styles);
 
@@ -15,11 +14,9 @@ function Seach() {
             <span className={cx('icon-load')}>
                 <FontAwesomeIcon icon={faSpinner} />
             </span>
-            <Tippy content="Tìm kiếm">
-                <Button primary>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
-                </Button>
-            </Tippy>
+            <Button primary>
+                <FontAwesomeIcon icon={faMagnifyingGlass} />
+            </Button>
         </div>
     );
 }
