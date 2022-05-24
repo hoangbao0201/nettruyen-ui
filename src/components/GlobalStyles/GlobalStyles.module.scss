@@ -1,6 +1,8 @@
 :root {
     --color-header: #3f3567;
     --white-color: #fff;
+    --black--color: #000;
+    --text-color: #333;
 }
 
 * {
@@ -11,7 +13,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: Tahoma,sans-serif,Helvetica,Arial;
+    font-family: Tahoma, sans-serif, Helvetica, Arial;
 }
 
 body {
@@ -20,7 +22,32 @@ body {
     color: var(--white-color);
 }
 
-input, button {
+a,
+input,
+button {
     outline: none;
     border: none;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    .col-sm-4 {
+        width: 33.3333333%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .col-sm-8 {
+        width: 66.6666667%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .haha {
+        color: red;
+    }
 }
