@@ -1,4 +1,3 @@
-import './Footer.module.scss';
 import images from '~/assect/images';
 
 import classNames from 'classnames/bind';
@@ -90,8 +89,8 @@ function Footer() {
                         <ul>
                             {listTitle.map((item, index) => {
                                 return (
-                                    <li className={cx('item')}>
-                                        <Button className={cx('link')} href="/" key={index}>
+                                    <li className={cx('item')} key={index}>
+                                        <Button className={cx('link')} href="/">
                                             {item.title}
                                         </Button>
                                     </li>

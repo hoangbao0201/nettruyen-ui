@@ -1,5 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretDown, faHouse } from '@fortawesome/free-solid-svg-icons';
+import {
+    faArrowsRotate,
+    faCaretDown,
+    faCloudUpload,
+    faEye,
+    faHouse,
+    faSignal,
+    faThumbsUp,
+} from '@fortawesome/free-solid-svg-icons';
 
 const listItems = [
     {
@@ -22,7 +30,7 @@ const listItems = [
         title: 'thể loại ',
         href: '/the-loai',
         fontIcon: <FontAwesomeIcon icon={faCaretDown} />,
-        list: [
+        listCategory: [
             [
                 {
                     title: 'Tất cả',
@@ -245,6 +253,53 @@ const listItems = [
         title: 'xếp hạng ',
         href: '/xep-hang',
         fontIcon: <FontAwesomeIcon icon={faCaretDown} />,
+        listRank: [
+            [
+                {
+                    title: ' Top All',
+                    icon: <FontAwesomeIcon icon={faEye} />,
+                    more: 'nguyenhoangbao',
+                    href: '/top-all',
+                },
+                {
+                    title: ' Top tháng',
+                    icon: <FontAwesomeIcon icon={faEye} />,
+                    href: '/top-thang',
+                },
+                {
+                    title: ' Top Tuần',
+                    icon: <FontAwesomeIcon icon={faEye} />,
+                    href: '/top-tuan',
+                },
+                {
+                    title: ' Top ngày',
+                    icon: <FontAwesomeIcon icon={faEye} />,
+                    href: '/top-ngay',
+                },
+            ],
+            [
+                {
+                    title: ' Truyện Full',
+                    icon: <FontAwesomeIcon icon={faSignal} />,
+                    href: '/truyen-full',
+                },
+                {
+                    title: ' Yêu thích',
+                    icon: <FontAwesomeIcon icon={faThumbsUp} />,
+                    href: '/yeu-thich',
+                },
+                {
+                    title: ' Mới cập nhật',
+                    icon: <FontAwesomeIcon icon={faArrowsRotate} />,
+                    href: '/moi-cap-nhat',
+                },
+                {
+                    title: ' Truyện mới',
+                    icon: <FontAwesomeIcon icon={faCloudUpload} />,
+                    href: '/truyen-moi',
+                },
+            ],
+        ],
     },
     {
         title: 'tìm truyện',

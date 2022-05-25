@@ -1,0 +1,76 @@
+.wrapper {
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-shadow: 0px 0px 6px #ccc;
+    background-color: #fff;
+    border-radius: 2px 2px 5px 5px;
+    z-index: 100;
+}
+
+.item {
+    cursor: pointer;
+}
+
+//set width--------------------------------
+
+.categorySetGrid {
+    min-width: 600px;
+}
+
+.rankSetGrid {
+    min-width: 300px;
+}
+
+.rankSetWidth {
+    width: 300px;
+    color: var(--text-color);
+}
+
+.categorySetWidth {
+    width: 600px;
+    color: var(--text-color);
+}
+
+.categorySetRow {
+    width: 25%;
+    padding: 5px 5px;
+    line-height: 2;
+
+    .link {
+        padding: 0px 10px;
+        display: block;
+
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}
+
+.rankSetRow {
+    width: 50%;
+    line-height: 2;
+
+    .link {
+        padding: 3px 10px;
+        display: block;
+
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}
+
+.link {
+    color: var(--text-color);
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+///////////////////
+
+.more {
+    color: red;
+}

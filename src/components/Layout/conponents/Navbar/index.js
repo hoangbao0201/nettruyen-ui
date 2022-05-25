@@ -1,8 +1,8 @@
 import classNames from 'classnames/bind';
 import styles from './Navbar.module.scss';
 
-import CategoryNavDown from './Category';
 import { categoryItems as listItems } from '~/assect/items/category';
+import DropDown from '~/components/DropDown';
 
 const cx = classNames.bind(styles);
 
@@ -13,19 +13,18 @@ function Navbar() {
                 <ul className={cx('list-item')}>
                     {listItems.map((item, index) => {
                         return (
-                            <>
-                                <li key={index} className={cx('item')}>
-                                    <div className={cx('grid')}>
-                                        <a className={cx('link')} href={item.href}>
-                                            {item.title}
-                                            {item.fontIcon}
-                                        </a>
-                                        <ul className={cx('navDown')}>
-                                            {item.list && <CategoryNavDown itemData={item.list} />}
-                                        </ul>
-                                    </div>
-                                </li>
-                            </>
+                            <li key={index} className={cx('item')}>
+                                <a className={cx('link')} href={item.href}>
+                                    {item.title}
+                                    {item.fontIcon}
+                                </a>
+                                <div className={cx('dropdown')}>
+                                    {item.listCategory && (
+                                        <DropDown itemData={item.listCategory} className="category" />
+                                    )}
+                                    {item.listRank && <DropDown itemData={item.listRank} className="rank" />}
+                                </div>
+                            </li>
                         );
                     })}
                 </ul>

@@ -1,0 +1,35 @@
+.wrapper {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.inner {
+    width: 1000px;
+    display: flex;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: 1px solid #4080ff;
+}
+
+.icon {
+    width: 38px;
+    text-align: center;
+    height: 100%;
+    padding: 8px 0px;
+    background-color: #4080ff;
+}
+
+.title {
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+.link {
+    color: #4080ff;
+}
+
+.text {
+    color: var(--text-color);
+}

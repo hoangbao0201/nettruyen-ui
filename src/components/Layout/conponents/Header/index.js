@@ -5,7 +5,6 @@ import Seach from '~/pages/Seach';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSortDown } from '@fortawesome/free-solid-svg-icons';
-import Navbar from '~/components/Layout/conponents/Navbar';
 
 const cx = classNames.bind(styles);
 
@@ -30,7 +29,6 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <Navbar />
         </>
     );
 }

@@ -3,7 +3,8 @@ import Header from '~/components/Layout/conponents/Header';
 import Footer from '~/components/Layout/conponents/Footer';
 
 import classNames from 'classnames/bind';
-import Sidebar from './Sidebar';
+import Navbar from '~/components/Layout/conponents/Navbar';
+import Warning from '~/components/Layout/conponents/Warning';
 
 const cx = classNames.bind(styles);
 
@@ -11,10 +12,9 @@ function DefaultLayout({ children }) {
     return (
         <div className={cx('wrapper')}>
             <Header />
-            <div className={cx('container')}>
-                <Sidebar />
-                {children}
-            </div>
+            <Navbar />
+            <Warning />
+            <div className={cx('content')}>{children}</div>
             <Footer />
         </div>
     );
