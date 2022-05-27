@@ -4,8 +4,6 @@ import Slide from '~/components/Layout/conponents/Slide';
 import styles from './DownloadApp.module.scss';
 import classNames from 'classnames/bind';
 import Content from '~/components/Layout/conponents/Content';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import Title from '~/components/Title';
 
 const cx = classNames.bind(styles);

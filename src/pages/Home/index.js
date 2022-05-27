@@ -4,8 +4,6 @@ import Slide from '~/components/Layout/conponents/Slide';
 import styles from './Home.module.scss';
 import classNames from 'classnames/bind';
 import Content from '~/components/Layout/conponents/Content';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import Title from '~/components/Title';
 
 const cx = classNames.bind(styles);
@@ -17,11 +15,11 @@ function Home() {
                 <Slide />
             </div>
             <div className={cx('container')}>
-                <div className={cx('content')}>
+                <div className={cx('content', 'col-sm-8')}>
                     <Title>Truyện mới cập nhật</Title>
                     <Content />
                 </div>
-                <div className={cx('sidebar')}>
+                <div className={cx('sidebar', 'col-sm-4')}>
                     <Sidebar />
                 </div>
             </div>

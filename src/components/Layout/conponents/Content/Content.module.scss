@@ -1,4 +1,10 @@
 .wrapper {
-    color: red;
-    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 25%;
+    position: relative;
+    margin-bottom: 10px;
 }

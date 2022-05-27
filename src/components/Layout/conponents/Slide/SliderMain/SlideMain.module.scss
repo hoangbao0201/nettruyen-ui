@@ -6,6 +6,8 @@
 
 .grid-sl {
     // padding: 0px 7px;
+    overflow: hidden;
+    border-radius: 5px;
     position: relative;
 }
 
@@ -17,7 +19,7 @@
 
 .btn-slider {
     background-color: rgba(204, 204, 204, 0.631);
-    border-radius: 5px;
+    border-radius: 10px;
     color: #333;
     z-index: 100;
     width: 55px;
@@ -38,7 +40,7 @@
     color: var(--white-color);
     background-color: rgba(0, 0, 0, 0.639);
     position: absolute;
-    padding: 5px 0px;
+    padding: 5px 10px;
     bottom: 0px;
 }
 
