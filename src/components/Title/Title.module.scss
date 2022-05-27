@@ -1,0 +1,10 @@
+.title {
+    color: var(--title-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 10px;
+
+    &i {
+        font-size: 1.8rem;
+    }
+}

@@ -4,6 +4,8 @@ import styles from './Navbar.module.scss';
 import { categoryItems as listItems } from '~/assect/items/category';
 import DropDown from '~/components/DropDown';
 
+import { Link } from 'react-router-dom';
+
 const cx = classNames.bind(styles);
 
 function Navbar() {
@@ -14,10 +16,10 @@ function Navbar() {
                     {listItems.map((item, index) => {
                         return (
                             <li key={index} className={cx('item')}>
-                                <a className={cx('link')} href={item.href}>
+                                <Link className={cx('link')} to={item.href}>
                                     {item.title}
                                     {item.fontIcon}
-                                </a>
+                                </Link>
                                 <div className={cx('dropdown')}>
                                     {item.listCategory && (
                                         <DropDown itemData={item.listCategory} className="category" />

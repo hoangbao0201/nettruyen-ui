@@ -1,6 +1,6 @@
 import styles from './Header.module.scss';
 import images from '~/assect/images';
-import Seach from '~/pages/Seach';
+import SearchHeader from '../SearchHeader';
 
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,7 +16,7 @@ function Header() {
                     <a href="/" className={cx('logo')}>
                         <img src={images.logo} alt="Nettruyen" />
                     </a>
-                    <Seach />
+                    <SearchHeader />
                     <div className={cx('grid-accout')}>
                         <img
                             className={cx('pic-user')}

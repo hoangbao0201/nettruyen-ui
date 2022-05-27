@@ -1,7 +1,7 @@
 const listComic = [
     {
-        name: 'Trọng sinh đô thị tu tiên',
-        img: '//st.nettruyenco.com/data/comics/89/chuong-mon-khiem-ton-chut.jpg',
+        name: 'Hoa Sơn Tái Xuất',
+        img: 'http://st.nettruyenco.com/data/comics/11/hoa-son-tai-xuat.jpg',
         link: '/truyen-tranh/trong-sinh-do-thi-tu-tien',
         chapterNew: '145',
         timeNew: '2 phút trước',
@@ -11,7 +11,7 @@ const listComic = [
     },
     {
         name: 'Yêu thần kí',
-        img: 'http://st.nettruyenco.com/data/comics/85/yeu-than-ky.jpg',
+        img: 'http://st.nettruyenco.com/data/comics/39/streamer-phap-su.jpg',
         link: '/truyen-tranh/yeu-than-ki',
         chapterNew: '289',
         timeNew: '3 giờ trước',
@@ -21,7 +21,7 @@ const listComic = [
     },
     {
         name: 'Yêu em',
-        img: 'http://st.nettruyenco.com/data/comics/87/het-nhu-han-quang-gap-nang-gat.jpg',
+        img: 'http://st.nettruyenco.com/data/comics/212/tu-tien-gia-dai-chien-sieu-nang-luc.jpg',
         link: '/truyen-tranh/nhu-hang-quang-gap-nang',
         chapterNew: '268',
         timeNew: '5 giờ trước',
@@ -31,7 +31,7 @@ const listComic = [
     },
     {
         name: 'Yêu em',
-        img: 'http://st.nettruyenco.com/data/comics/87/het-nhu-han-quang-gap-nang-gat.jpg',
+        img: 'http://st.nettruyenco.com/data/comics/161/ta-la-ta-de.jpg',
         link: '/truyen-tranh/nhu-hang-quang-gap-nang',
         chapterNew: '268',
         timeNew: '5 giờ trước',
@@ -41,7 +41,7 @@ const listComic = [
     },
     {
         name: 'Yêu em',
-        img: 'http://st.nettruyenco.com/data/comics/87/het-nhu-han-quang-gap-nang-gat.jpg',
+        img: 'http://st.nettruyenco.com/data/comics/235/ta-troi-sinh-da-la-nhan-vat-phan-dien.jpg',
         link: '/truyen-tranh/nhu-hang-quang-gap-nang',
         chapterNew: '268',
         timeNew: '5 giờ trước',
@@ -51,7 +51,7 @@ const listComic = [
     },
     {
         name: 'Yêu em',
-        img: 'http://st.nettruyenco.com/data/comics/87/het-nhu-han-quang-gap-nang-gat.jpg',
+        img: 'http://st.nettruyenco.com/data/comics/78/chu-gioi-tan-the-online.jpg',
         link: '/truyen-tranh/nhu-hang-quang-gap-nang',
         chapterNew: '268',
         timeNew: '5 giờ trước',
@@ -61,7 +61,7 @@ const listComic = [
     },
     {
         name: 'Yêu em',
-        img: 'http://st.nettruyenco.com/data/comics/87/het-nhu-han-quang-gap-nang-gat.jpg',
+        img: 'http://st.nettruyenco.com/data/comics/188/dai-quan-gia-la-ma-hoang.jpg',
         link: '/truyen-tranh/nhu-hang-quang-gap-nang',
         chapterNew: '268',
         timeNew: '5 giờ trước',
@@ -71,7 +71,7 @@ const listComic = [
     },
     {
         name: 'Yêu em',
-        img: 'http://st.nettruyenco.com/data/comics/87/het-nhu-han-quang-gap-nang-gat.jpg',
+        img: 'http://st.nettruyenco.com/data/comics/47/bac-kiem-giang-ho.jpg',
         link: '/truyen-tranh/nhu-hang-quang-gap-nang',
         chapterNew: '268',
         timeNew: '5 giờ trước',
