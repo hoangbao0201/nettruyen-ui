@@ -2,6 +2,7 @@ import { faComment, faEye, faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
+import CommicHot from '../CommicHot';
 import ItemChapter from './ItemChapter';
 import styles from './ItemContent.module.scss';
 
@@ -11,6 +12,7 @@ function ItemContent({ item }) {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('grid-image')}>
+                <CommicHot />
                 <Link to={item.link} className={cx('link-img')}>
                     <img className={cx('img')} src={item.img} alt=""></img>
                     <div className={cx('box-bottom')}>

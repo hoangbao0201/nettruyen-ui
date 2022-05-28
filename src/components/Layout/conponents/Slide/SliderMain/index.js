@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 
 import styles from './SlideMain.module.scss';
 import classNames from 'classnames/bind';
-import listComic from '~/assect/listComic';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight, faClock } from '@fortawesome/free-solid-svg-icons';
 
 import './main.css';
+import listSlider from '~/assect/listSliders';
 
 const cx = classNames.bind(styles);
 
@@ -49,26 +49,12 @@ function SlideMain() {
         speed: 300,
         prevArrow: <SlickArrowLeft />,
         nextArrow: <SlickArrowRight />,
-        // nextArrow: (
-        //     <button>
-        //         <div className={cx('btn-slider')}>
-        //             <FontAwesomeIcon icon={faAngleRight} />
-        //         </div>
-        //     </button>
-        // ),
-        // prevArrow: (
-        //     <button>
-        //         <div className={cx('btn-slider')}>
-        //             <FontAwesomeIcon icon={faAngleLeft} />
-        //         </div>
-        //     </button>
-        // ),
     };
     return (
         <div className={cx('wrapper')}>
             <div className={cx('slider-sl')}>
                 <Slider {...settings}>
-                    {listComic.map((item, index) => {
+                    {listSlider.map((item, index) => {
                         return (
                             <div className={cx('item-sl')} key={index}>
                                 <div className={cx('grid-sl')}>
