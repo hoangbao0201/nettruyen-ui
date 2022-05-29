@@ -18,7 +18,7 @@ function SideRank() {
                 {TopMonth.map((item, index) => {
                     return (
                         <li key={index} className={cx('grid')}>
-                            <span className={cx('rank-num', `rank-num-${index + 1}`)}>0{index + 1}</span>
+                            <span className={cx('rank-num', `top-num-${index + 1}`)}>0{index + 1}</span>
                             <a className={cx('link-img')} href={item.href}>
                                 <img className={cx('img')} src={item.img} alt=""></img>
                             </a>

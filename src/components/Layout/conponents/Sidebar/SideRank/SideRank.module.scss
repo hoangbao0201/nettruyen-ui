@@ -1,18 +1,7 @@
-.rank-num-1 {
-    color: #3498db;
-}
-
-.rank-num-2 {
-    color: #27ae60;
-}
-
-.rank-num-3 {
-    color: #d35400;
-}
-
 .wrapper {
     width: 100%;
     color: var(--text-color);
+    margin-bottom: 15px;
 }
 
 .list {
@@ -86,7 +75,7 @@
 }
 
 .name {
-    line-height: 1;
+    line-height: 1.1;
     a {
         color: var(--text-color);
         &:hover {
