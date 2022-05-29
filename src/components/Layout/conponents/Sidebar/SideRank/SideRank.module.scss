@@ -85,9 +85,9 @@
 }
 
 .grid-bottom {
-    display: flex;
+    // display: flex;
     width: 100%;
-    justify-content: space-between;
+    // justify-content: space-between;
     padding-top: 10px;
 }
 
@@ -112,6 +112,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     padding-top: 5px;
+    float: right;
 
     i {
         font-size: 0.9rem;

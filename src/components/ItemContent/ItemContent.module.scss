@@ -58,3 +58,11 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
+
+//reponsive
+
+@media (max-width: 350px) {
+    .grid-image {
+        height: 260px !important;
+    }
+}

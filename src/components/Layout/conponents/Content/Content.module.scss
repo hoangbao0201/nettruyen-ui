@@ -17,8 +17,15 @@
     }
 }
 
-@media (min-width: 200px) and (max-width: 530px) {
+@media (min-width: 350px) and (max-width: 530px) {
     .item {
         width: 50% !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .item {
+        width: 100% !important;
+        // height: 260px;
     }
 }
