@@ -9,7 +9,7 @@ import Pagination from '~/components/Layout/conponents/Pagination';
 import SideRank from '~/components/Layout/conponents/Sidebar/SideRank';
 import SideFollower from '~/components/Layout/conponents/Sidebar/SideFollower';
 import SideTopUser from '~/components/Layout/conponents/Sidebar/SideTopUser';
-import SideComment from '~/components/Layout/conponents/Sidebar/SideComment';
+// import SideComment from '~/components/Layout/conponents/Sidebar/SideComment';
 
 const cx = classNames.bind(styles);
 
@@ -30,7 +30,6 @@ function Home() {
                         <SideFollower />
                         <SideRank />
                         <SideTopUser />
-                        <SideComment />
                     </Sidebar>
                 </div>
             </div>

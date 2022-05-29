@@ -8,3 +8,17 @@
     position: relative;
     margin-bottom: 10px;
 }
+
+//reponsive
+
+@media (min-width: 530px) and (max-width: 770px) {
+    .item {
+        width: 33.33333333% !important;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 530px) {
+    .item {
+        width: 50% !important;
+    }
+}

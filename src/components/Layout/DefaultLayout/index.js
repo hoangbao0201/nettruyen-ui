@@ -11,11 +11,11 @@ const cx = classNames.bind(styles);
 function DefaultLayout({ children }) {
     return (
         <div className={cx('wrapper')}>
-            <Header />
-            <Navbar />
-            <Warning />
+            {/* <Header /> */}
+            {/* <Navbar /> */}
+            {/* <Warning /> */}
             <div className={cx('content')}>{children}</div>
-            <Footer />
+            {/* <Footer />/ */}
         </div>
     );
 }

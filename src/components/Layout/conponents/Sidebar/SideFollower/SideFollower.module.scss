@@ -52,10 +52,14 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    color: var(--text-color);
 }
 
 .chapter {
     font-size: 1.4rem;
+    a {
+        color: var(--text-color);
+    }
 }
 
 .viewNext {

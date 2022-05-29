@@ -4,9 +4,13 @@
     padding: 20px 5px;
 }
 
-.item + .item {
-    margin-left: 5px;
+.item {
+    margin: 3px;
 }
+
+// .item + .item {
+//     margin-left: 5px;
+// }
 
 .link {
     width: 34px;
