@@ -8,6 +8,7 @@ const listComic = [
         view: '14.004.789',
         heart: '5036',
         comment: '6226',
+        hot: 'hot',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -18,6 +19,7 @@ const listComic = [
         view: '58.244.262',
         heart: '753.432',
         comment: '54.786',
+        hot: 'hot',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -28,6 +30,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -38,6 +41,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -48,6 +52,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -58,6 +63,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -68,6 +74,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -78,6 +85,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     //------------------------
     {
@@ -89,6 +97,7 @@ const listComic = [
         view: '14.004.789',
         heart: '5036',
         comment: '6226',
+        hot: 'hot',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -99,6 +108,7 @@ const listComic = [
         view: '58.244.262',
         heart: '753.432',
         comment: '54.786',
+        hot: 'hot',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -109,6 +119,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -119,6 +130,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -129,6 +141,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -139,6 +152,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -149,6 +163,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -159,6 +174,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     //------------------------
     {
@@ -170,6 +186,7 @@ const listComic = [
         view: '14.004.789',
         heart: '5036',
         comment: '6226',
+        hot: 'hot',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -180,6 +197,7 @@ const listComic = [
         view: '58.244.262',
         heart: '753.432',
         comment: '54.786',
+        hot: 'hot',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -190,6 +208,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -200,6 +219,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -210,6 +230,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -220,6 +241,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -230,6 +252,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -240,6 +263,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     //------------------------
     {
@@ -251,6 +275,7 @@ const listComic = [
         view: '14.004.789',
         heart: '5036',
         comment: '6226',
+        hot: 'hot',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -261,6 +286,7 @@ const listComic = [
         view: '58.244.262',
         heart: '753.432',
         comment: '54.786',
+        hot: 'hot',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -271,6 +297,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -281,6 +308,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -291,6 +319,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -301,6 +330,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -311,6 +341,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -321,6 +352,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     //------------------------
     {
@@ -332,6 +364,7 @@ const listComic = [
         view: '14.004.789',
         heart: '5036',
         comment: '6226',
+        hot: 'hot',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -342,6 +375,7 @@ const listComic = [
         view: '58.244.262',
         heart: '753.432',
         comment: '54.786',
+        hot: 'hot',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -352,6 +386,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -362,6 +397,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -372,6 +408,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -382,6 +419,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -392,6 +430,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -402,6 +441,7 @@ const listComic = [
         view: '600.454.345',
         heart: '90.432',
         comment: '763.432',
+        hot: 'hot',
     },
 ];
 

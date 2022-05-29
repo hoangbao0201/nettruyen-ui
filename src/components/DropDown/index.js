@@ -15,8 +15,8 @@ function DropDown({ itemData, className }) {
                             return (
                                 <div className={cx('item')} key={index}>
                                     <a data-title={item.more} className={cx('link')} href={item.href}>
-                                        <i className={cx('icon')}>{item.icon}</i>
-                                        {item.title}
+                                        {item.icon && <i className={cx('icon')}>{item.icon}</i>}
+                                        <span className={cx('title')}>{item.title}</span>
                                     </a>
                                 </div>
                             );

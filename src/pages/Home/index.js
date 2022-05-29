@@ -6,6 +6,8 @@ import classNames from 'classnames/bind';
 import Content from '~/components/Layout/conponents/Content';
 import Title from '~/components/Title';
 import Pagination from '~/components/Layout/conponents/Pagination';
+import SideRank from '~/components/Layout/conponents/Sidebar/SideRank';
+import SideFollower from '~/components/Layout/conponents/Sidebar/SideFollower';
 
 const cx = classNames.bind(styles);
 
@@ -22,7 +24,10 @@ function Home() {
                     <Pagination />
                 </div>
                 <div className={cx('sidebar', 'col-sm-4')}>
-                    <Sidebar />
+                    <Sidebar>
+                        <SideFollower />
+                        <SideRank />
+                    </Sidebar>
                 </div>
             </div>
         </div>

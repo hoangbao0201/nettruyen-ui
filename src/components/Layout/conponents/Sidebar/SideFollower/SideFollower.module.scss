@@ -1,0 +1,62 @@
+.wrapper {
+    padding: 10px;
+    border: 1px solid #ecf0f1;
+}
+
+.box-top {
+    padding-bottom: 5px;
+    display: flow-root;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.comic-fol {
+    float: left;
+}
+
+.view-all {
+    float: right;
+    font-style: italic;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.item + .item {
+    border-top: 1px solid #ecf0f1;
+}
+
+.link-img {
+    height: 50px;
+    width: 45px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.box-right {
+    flex: 1;
+    padding-left: 8px;
+}
+
+.name {
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.chapter {
+    font-size: 1.4rem;
+}
+
+.viewNext {
+    color: #666;
+    font-style: italic;
+    font-size: 1.2rem;
+}

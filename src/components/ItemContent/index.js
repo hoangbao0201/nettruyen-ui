@@ -12,7 +12,7 @@ function ItemContent({ item }) {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('grid-image')}>
-                <CommicHot />
+                {item.hot && <CommicHot />}
                 <Link to={item.link} className={cx('link-img')}>
                     <img className={cx('img')} src={item.img} alt=""></img>
                     <div className={cx('box-bottom')}>

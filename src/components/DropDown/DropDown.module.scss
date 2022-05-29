@@ -6,6 +6,7 @@
     background-color: #fff;
     border-radius: 2px 2px 5px 5px;
     z-index: 100;
+    overflow: hidden;
 }
 
 .item {
@@ -23,7 +24,7 @@
 }
 
 .rankSetWidth {
-    width: 300px;
+    width: 200px;
     color: var(--text-color);
 }
 
@@ -32,31 +33,46 @@
     color: var(--text-color);
 }
 
+.title {
+    transition: 200ms;
+    white-space: nowrap;
+}
+
+.icon {
+    transition: 200ms;
+    white-space: nowrap;
+}
+
 .categorySetRow {
     width: 25%;
     padding: 5px 5px;
-    line-height: 2;
 
     .link {
         padding: 0px 10px;
         display: block;
 
         &:hover {
-            background-color: #eee;
+            color: #e74c3c;
+            .title {
+                margin-left: 5px;
+            }
         }
     }
 }
 
 .rankSetRow {
     width: 50%;
-    line-height: 2;
 
     .link {
         padding: 3px 10px;
         display: block;
 
         &:hover {
-            background-color: #eee;
+            color: #e74c3c;
+            .title,
+            i {
+                margin-left: 5px;
+            }
         }
     }
 }

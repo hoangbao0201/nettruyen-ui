@@ -3,8 +3,8 @@ import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
 
-function Sidebar() {
-    return <div className={cx('wrapper', 'col-sm-4')}>Sidebar</div>;
+function Sidebar({ children }) {
+    return <div className={cx('wrapper')}>{children}</div>;
 }
 
 export default Sidebar;

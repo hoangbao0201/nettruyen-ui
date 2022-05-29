@@ -1,11 +1,12 @@
 :root {
-    --height-wrap: 41px;
+    --height-wrap: 35px;
 }
 
 .wrapper {
     width: 100%;
     height: var(--height-wrap);
     background-color: #e4e4e4;
+    z-index: 20;
 }
 
 .inner {
