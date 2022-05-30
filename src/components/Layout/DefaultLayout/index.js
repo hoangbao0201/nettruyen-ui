@@ -4,7 +4,7 @@ import Footer from '~/components/Layout/conponents/Footer';
 
 import classNames from 'classnames/bind';
 import Navbar from '~/components/Layout/conponents/Navbar';
-import Warning from '~/components/Layout/conponents/Warning';
+// import Warning from '~/components/Layout/conponents/Warning';
 
 const cx = classNames.bind(styles);
 
@@ -13,7 +13,7 @@ function DefaultLayout({ children }) {
         <div className={cx('wrapper')}>
             <Header />
             <Navbar />
-            <Warning />
+            {/* <Warning /> */}
             <div className={cx('content')}>{children}</div>
             <Footer />
         </div>
