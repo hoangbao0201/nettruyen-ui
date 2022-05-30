@@ -31,7 +31,7 @@ function Navbar() {
                 <ul className={cx('list-item')}>
                     {listItems.map((item, index) => {
                         return (
-                            <li key={index} className={cx('item')}>
+                            <li key={index} className={cx('item', `item-${index}`)}>
                                 <Link className={cx('link')} to={item.href}>
                                     {item.title}
                                     {item.fontIcon}

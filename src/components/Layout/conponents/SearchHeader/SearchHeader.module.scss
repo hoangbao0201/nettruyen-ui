@@ -13,3 +13,11 @@
     line-height: 1.5;
     background-color: transparent;
 }
+
+//reponsive
+
+@media (max-width: 770px) {
+    .wrapper {
+        display: none;
+    }
+}

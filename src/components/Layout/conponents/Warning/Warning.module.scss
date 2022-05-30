@@ -4,7 +4,7 @@
 }
 
 .inner {
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     background-color: #fff;
     margin-left: auto;
@@ -35,4 +35,10 @@
 
 .text {
     color: var(--text-color);
+}
+
+@media (max-width: 1020px) {
+    .inner {
+        max-width: 770px !important;
+    }
 }

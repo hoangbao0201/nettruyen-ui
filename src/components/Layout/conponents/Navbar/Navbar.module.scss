@@ -48,3 +48,22 @@
     text-align: center;
     padding: 0px 8px;
 }
+
+//reponsive
+
+@media (max-width: 1024px) {
+    .item-7,
+    .item-8,
+    .item-10 {
+        display: none;
+    }
+    .inner {
+        max-width: 770px;
+    }
+}
+
+@media (max-width: 770px) {
+    .wrapper {
+        display: none;
+    }
+}
