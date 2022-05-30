@@ -44,30 +44,6 @@
     transform: translateY(-20%);
 }
 
-//btn toggle
-
-.navbar-toggle {
-    position: relative;
-}
-
-.btn-toggle {
-    width: 40px;
-    padding: 3px 0px;
-    background-color: #d0b32e;
-    border-radius: 4px;
-    font-size: 3rem;
-    color: var(--white-color);
-    cursor: pointer;
-
-    &:hover {
-        background-color: #bda229;
-    }
-}
-
-.navbar-toggle {
-    display: none;
-}
-
 //reponsive
 
 //cứng
@@ -88,14 +64,4 @@
     .inner {
         max-width: 800px;
     }
-
-    .navbar-toggle {
-        display: block;
-    }
 }
-
-// @media (max-width: 770px) {
-//     .inner {
-//         max-width: 720px;
-//     }
-// }

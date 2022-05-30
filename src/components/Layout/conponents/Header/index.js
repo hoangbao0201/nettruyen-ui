@@ -4,7 +4,8 @@ import SearchHeader from '../SearchHeader';
 
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faSortDown } from '@fortawesome/free-solid-svg-icons';
+import ToggleNavbar from '~/components/ToggleNavbar';
+import { faSortDown } from '@fortawesome/free-solid-svg-icons';
 
 const cx = classNames.bind(styles);
 
@@ -26,11 +27,7 @@ function Header() {
                         Cá nhân <FontAwesomeIcon className={cx('icon-down')} icon={faSortDown} />
                     </span>
                 </div>
-                <div className={cx('navbar-toggle')}>
-                    <button className={cx('btn-toggle', 'btnToggleNavbar')}>
-                        <FontAwesomeIcon icon={faBars} />
-                    </button>
-                </div>
+                <ToggleNavbar />
             </div>
         </div>
     );
