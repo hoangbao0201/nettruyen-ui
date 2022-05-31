@@ -6,9 +6,9 @@ import styles from './SearchHeader.module.scss';
 
 const cx = classNames.bind(styles);
 
-function SearchHeader() {
+function SearchHeader({ className }) {
     return (
-        <div className={cx('wrapper')}>
+        <div className={cx('wrapper', className)}>
             <input className={cx('inputHeader')} placeholder="Tìm truyện..."></input>
             <Button>
                 <FontAwesomeIcon icon={faMagnifyingGlass} />

@@ -30,6 +30,22 @@
     position: absolute;
     z-index: 1000;
     display: none;
+    padding: 0px 10px;
+    padding-top: 15px;
+}
+
+.item {
+    text-transform: uppercase;
+    line-height: 35px;
+
+    .dropdown {
+        display: none;
+    }
+}
+
+.link {
+    cursor: pointer;
+    color: var(--white-color);
 }
 
 //reponsive
