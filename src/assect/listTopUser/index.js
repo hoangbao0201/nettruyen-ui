@@ -3,7 +3,7 @@ const listTopUser = [
         id: 1,
         name: 'Thuỷ Kê Tử - Bần Nông Tông',
         img: 'https://st.nettruyenco.com/data/sites/1/useravatars/447259.jpg?v=3993',
-        rank: 520,
+        rank: 780,
     },
     {
         id: 2,

@@ -3,3 +3,13 @@
     min-height: 1500px;
     background-color: #ebebeb;
 }
+
+.space {
+    width: 100%;
+}
+
+@media (max-width: 770px) {
+    .space {
+        height: 50px;
+    }
+}

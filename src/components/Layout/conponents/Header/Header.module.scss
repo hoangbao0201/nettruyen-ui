@@ -3,7 +3,7 @@
     height: 50px;
     background-color: var(--color-header);
     display: flex;
-    z-index: 10;
+    z-index: 100;
     justify-content: center;
 }
 
@@ -63,5 +63,8 @@
 @media (max-width: 770px) {
     .inner {
         max-width: 800px;
+    }
+    .wrapper {
+        position: fixed;
     }
 }

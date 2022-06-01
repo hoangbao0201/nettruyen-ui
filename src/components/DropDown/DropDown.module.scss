@@ -1,12 +1,16 @@
 .wrapper {
     left: 0px;
     position: absolute;
-    display: flex;
+    // display: flex;
     box-shadow: 0px 0px 6px #ccc;
     background-color: #fff;
     border-radius: 2px 2px 5px 5px;
     z-index: 100;
     overflow: hidden;
+}
+
+.list-row {
+    float: left;
 }
 
 .item {
@@ -89,4 +93,32 @@
 
 .more {
     color: red;
+}
+
+//////////////////////
+
+.styleData {
+    float: left;
+    width: 100%;
+    bottom: 0px;
+    color: var(--text-color);
+    padding: 8px 15px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    animation-name: myFade;
+    animation-duration: 0.8s;
+
+    div {
+        border-top: 1px solid #ccc;
+        padding-top: 4px;
+    }
+}
+
+@keyframes myFade {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 1;
+    }
 }

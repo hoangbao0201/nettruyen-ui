@@ -21,6 +21,7 @@ const publicRoutes = [
     { path: '/con-gai', component: Girl },
     { path: '/tai-app', component: Home },
     { path: '/group', component: Home },
+    { path: '/truyen-tranh', component: Search },
 ];
 
 export { publicRoutes };
