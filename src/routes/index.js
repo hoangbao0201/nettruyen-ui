@@ -7,7 +7,7 @@ import Rank from '~/pages/Rank';
 import Search from '~/pages/Search';
 import Boy from '~/pages/Boy';
 import Girl from '~/pages/Girl';
-// import DownloadApp from '~/pages/DownloadApp';
+import DownLoadApp from '~/pages/DownLoadApp';
 
 const publicRoutes = [
     { path: '/', component: Home },
@@ -19,7 +19,7 @@ const publicRoutes = [
     { path: '/tim-truyen', component: Search },
     { path: '/con-trai', component: Boy },
     { path: '/con-gai', component: Girl },
-    { path: '/tai-app', component: Home },
+    { path: '/tai-app', component: DownLoadApp },
     { path: '/group', component: Home },
     { path: '/truyen-tranh', component: Search },
 ];
