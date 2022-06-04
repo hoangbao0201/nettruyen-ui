@@ -8,6 +8,7 @@ import Search from '~/pages/Search';
 import Boy from '~/pages/Boy';
 import Girl from '~/pages/Girl';
 import DownLoadApp from '~/pages/DownLoadApp';
+import Comic from '~/pages/Comic';
 
 const publicRoutes = [
     { path: '/', component: Home },
@@ -21,7 +22,7 @@ const publicRoutes = [
     { path: '/con-gai', component: Girl },
     { path: '/tai-app', component: DownLoadApp },
     { path: '/group', component: Home },
-    { path: '/truyen-tranh', component: Search },
+    { path: '/truyen-tranh/:truyentranhId', component: Comic },
 ];
 
 export { publicRoutes };

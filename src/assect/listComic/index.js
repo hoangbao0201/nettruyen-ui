@@ -9,6 +9,7 @@ const listComic = [
         heart: '5036',
         comment: '6226',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -20,6 +21,7 @@ const listComic = [
         heart: '753.432',
         comment: '54.786',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -31,6 +33,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -42,6 +45,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -53,6 +57,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -64,6 +69,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -75,6 +81,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -86,6 +93,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     //------------------------
     {
@@ -98,6 +106,7 @@ const listComic = [
         heart: '5036',
         comment: '6226',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -109,6 +118,7 @@ const listComic = [
         heart: '753.432',
         comment: '54.786',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -120,6 +130,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -131,6 +142,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -142,6 +154,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -153,6 +166,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -164,6 +178,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -175,6 +190,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     //------------------------
     {
@@ -187,6 +203,7 @@ const listComic = [
         heart: '5036',
         comment: '6226',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -198,6 +215,7 @@ const listComic = [
         heart: '753.432',
         comment: '54.786',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -209,6 +227,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -220,6 +239,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -231,6 +251,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -242,6 +263,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -253,6 +275,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -264,6 +287,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     //------------------------
     {
@@ -276,6 +300,7 @@ const listComic = [
         heart: '5036',
         comment: '6226',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -287,6 +312,7 @@ const listComic = [
         heart: '753.432',
         comment: '54.786',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -298,6 +324,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -309,6 +336,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -320,6 +348,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -331,6 +360,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -342,6 +372,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -353,6 +384,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     //------------------------
     {
@@ -365,6 +397,7 @@ const listComic = [
         heart: '5036',
         comment: '6226',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Streamer Pháp Sư',
@@ -376,6 +409,7 @@ const listComic = [
         heart: '753.432',
         comment: '54.786',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Tu Tiên Đại Chiến Siêu Năng Lực',
@@ -387,6 +421,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Là Tà Đế',
@@ -398,6 +433,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Ta Trời Sinh Đã Là Nhân Vật Phản Diện',
@@ -409,6 +445,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Chư Giới Tận Thế Online',
@@ -420,6 +457,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Đại Quản Gia Là Ma Hoàng',
@@ -431,6 +469,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
     {
         name: 'Bắc Kiếm Giang Hồ',
@@ -442,6 +481,7 @@ const listComic = [
         heart: '90.432',
         comment: '763.432',
         hot: 'hot',
+        timeNewUpdate: '08:44 04/06/2022',
     },
 ];
 

@@ -29,9 +29,13 @@
 //accout
 
 .grid-accout {
-    cursor: pointer;
+}
+
+.user-accout {
     display: flex;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .pic-user {
